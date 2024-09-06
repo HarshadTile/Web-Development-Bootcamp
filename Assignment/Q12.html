@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism in [City]</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="City Logo" id="logo">
+        <h1>Welcome to [City]</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#heritage">Heritage</a></li>
+                <li><a href="#hotel-booking">Hotel Booking</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Explore the Beauty of [City]</h2>
+        <p>[City] is renowned for its rich history, stunning landmarks, and vibrant culture. Discover the must-see heritage sites, book your stay in one of our luxurious hotels, and enjoy the beautiful gallery of images showcasing our city's charm.</p>
+    </section>
+    
+    <section id="heritage">
+        <h2>Heritage Sites</h2>
+        <div class="heritage-gallery">
+            <a href="#heritage-site1"><img src="images/heritage1.jpg" alt="Heritage Site 1"></a>
+            <a href="#heritage-site2"><img src="images/heritage2.jpg" alt="Heritage Site 2"></a>
+            <!-- Add more images and links for other heritage sites -->
+        </div>
+    </section>
+    
+    <section id="heritage-site1" class="heritage-site">
+        <h2>Heritage Site 1</h2>
+        <img src="images/heritage1.jpg" alt="Heritage Site 1">
+        <p>[Description and history of Heritage Site 1]</p>
+    </section>
+
+    <section id="heritage-site2" class="heritage-site">
+        <h2>Heritage Site 2</h2>
+        <img src="images/heritage2.jpg" alt="Heritage Site 2">
+        <p>[Description and history of Heritage Site 2]</p>
+    </section>
+
+    <!-- Add more heritage site sections as needed -->
+
+    <section id="hotel-booking">
+        <h2>Book Your Stay</h2>
+        <form action="/submit-booking" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="check-in">Check-in Date:</label>
+            <input type="date" id="check-in" name="check-in" required>
+
+            <label for="check-out">Check-out Date:</label>
+            <input type="date" id="check-out" name="check-out" required>
+
+            <label for="room-type">Room Type:</label>
+            <select id="room-type" name="room-type" required>
+                <option value="single">Single</option>
+                <option value="double">Double</option>
+                <option value="suite">Suite</option>
+            </select>
+
+            <label for="special-requests">Special Requests:</label>
+            <textarea id="special-requests" name="special-requests"></textarea>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="images/gallery1.jpg" alt="Gallery Image 1">
+            <img src="images/gallery2.jpg" alt="Gallery Image 2">
+            <!-- Add more images for the gallery -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tourism in [City]</p>
+    </footer>
+</body>
+</html>

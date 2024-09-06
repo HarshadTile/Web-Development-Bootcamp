@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #first{
+            height: 10px;
+            width: 200px;
+        }
+        #second{
+           
+            margin-left: 260px;
+            height: 10px;
+            width: 200px;
+        }
+        #third{
+            margin-left: 460px;
+            height: 10px;
+            width: 200px;
+            margin-top:5px;
+
+        }
+        #four{
+            margin-left: 680px;
+            height: 10px;
+            width: 200px;
+            margin-top:5px;
+
+        }
+        #five{
+            margin-left :880px;
+            width: 200px;
+            height: 10px;
+            margin-top: 5px;
+        }
+        #sixth{
+            margin-left :1080px;
+            width: 200px;
+            height: 10px;
+            margin-top: 5px;
+        }
+        #seven{
+            margin-left: 1280px;
+            width: 200px;
+            height: 10px;
+            margin-top: 5px;
+        }
+        #et{
+            margin-right: 600px;
+            width: 200px;
+            height: 10px;
+            margin-bottom: 500px;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="first">
+    <h1>Q1.HTML Text Formatting Tags</h1>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>&lt;b&gt;</code></td>
+                <td>Bold text</td>
+            </tr>
+            <tr>
+                <td><code>&lt;i&gt;</code></td>
+                <td>Italic text</td>
+            </tr>
+            <tr>
+                <td><code>&lt;u&gt;</code></td>
+                <td>Underlined text</td>
+            </tr>
+            <tr>
+                <td><code>&lt;s&gt;</code></td>
+                <td>Strikethrough text</td>
+            </tr>
+            <tr>
+                <td><code>&lt;strong&gt;</code></td>
+                <td>Important text (strong emphasis)</td>
+            </tr>
+            <tr>
+                <td><code>&lt;em&gt;</code></td>
+                <td>Italic text (emphasis)</td>
+            </tr>
+            <tr>
+                <td><code>&lt;mark&gt;</code></td>
+                <td>Highlighted text</td>
+            </tr>
+            <tr>
+                <td><code>&lt;small&gt;</code></td>
+                <td>Smaller text</td>
+            </tr>
+            <tr>
+                <td><code>&lt;sub&gt;</code></td>
+                <td>Subscript text</td>
+            </tr>
+            <tr>
+                <td><code>&lt;sup&gt;</code></td>
+                <td>Superscript text</td>
+            </tr>
+            <tr>
+                <td><code>&lt;q&gt;</code></td>
+                <td>Short quotation</td>
+            </tr>
+            <tr>
+                <td><code>&lt;blockquote&gt;</code></td>
+                <td>Long quotation</td>
+            </tr>
+            <tr>
+                <td><code>&lt;code&gt;</code></td>
+                <td>Inline code</td>
+            </tr>
+            <tr>
+                <td><code>&lt;pre&gt;</code></td>
+                <td>Preformatted text</td>
+            </tr>
+            <tr>
+                <td><code>&lt;ins&gt;</code></td>
+                <td>Inserted text</td>
+            </tr>
+            <tr>
+                <td><code>&lt;del&gt;</code></td>
+                <td>Deleted text</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div id="second">
+    <h1>Q2. HTML List Tags Example</h1>
+
+    <h2>Unordered List</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2
+            <ul>
+                <li>Sub-item 2.1</li>
+                <li>Sub-item 2.2</li>
+            </ul>
+        </li>
+        <li>Item 3</li>
+    </ul>
+
+    <h2>Ordered List</h2>
+    <ol>
+        <li>First Item</li>
+        <li>Second Item
+            <ol>
+                <li>Sub-item 2.1</li>
+                <li>Sub-item 2.2</li>
+            </ol>
+        </li>
+        <li>Third Item</li>
+    </ol>
+
+    <h2>Description List</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>JavaScript</dt>
+        <dd>A programming language for the web</dd>
+    </dl>
+</div>
+<div id="third">
+    <h1>Q3.Create webpage to include image using HTML tag</h1>
+    <img src="./assets/images/assistant10.png" alt="Description of the image">
+    
+</div>
+<div id="four">
+<h1>Q4.Create employee registration webpage using HTML form objects.</h1>
+    <div class="form-container">
+        <form action="/submit" method="POST">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="department">Department:</label>
+                <select id="department" name="department">
+                    <option value="HR">Human Resources</option>
+                    <option value="IT">Information Technology</option>
+                    <option value="Finance">Finance</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="Sales">Sales</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <div class="radio-group">
+                    <label><input type="radio" id="male" name="gender" value="male"> Male</label>
+                    <label><input type="radio" id="female" name="gender" value="female"> Female</label>
+                    <label><input type="radio" id="other" name="gender" value="other"> Other</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="skills">Skills:</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" id="html" name="skills" value="HTML"> HTML</label>
+                    <label><input type="checkbox" id="css" name="skills" value="CSS"> CSS</label>
+                    <label><input type="checkbox" id="js" name="skills" value="JavaScript"> JavaScript</label>
+                    <label><input type="checkbox" id="python" name="skills" value="Python"> Python</label>
+                    <label><input type="checkbox" id="java" name="skills" value="Java"> Java</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+</div>
+<div id="five">
+    <body>
+        <h1>Q5. Welcome to My Web Page</h1>
+        <p>This is a paragraph of text. You can write anything you like here.</p>
+        <p>Here's another paragraph with more text to show how it looks.</p>
+        
+        <h2>My Favorite Fruits</h2>
+        <ul>
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Cherries</li>
+            <li>Grapes</li>
+        </ul>
+        
+        <h2>Ordered List Example</h2>
+        <ol>
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+            <li>Fourth Item</li>
+        </ol>
+    
+        <h2>Image Example</h2>
+        <img src="./assets/images/daenerys.jpeg" alt="Example Image" width="300" height="200">
+    </body>
+</div>
+<div id="sixth">
+    <h1>Q8.HTML tags like <a> can have certain attributes. The href attribute is mandatory in the <a> tag.</h1>
+    <a href="./solution.html" title="This leads you to another page.">Visit Another Page</a>
+
+</div>
+<div id="seven">
+    <h1>Q9.It is possible to use a picture (image) as a link</h1>
+    <a href="solution.html">
+        <img src="./assets/images/6.jpeg" alt="Description of the image" />
+        
+    </a>
+    
+</div>
+<div id="et">
+
+    h1>Welcome to My Website</h1>
+    <p>This is the home page.</p>
+    <a href="about.html">Go to About Page</a>
+</div>
+
+</body>
+</html>
